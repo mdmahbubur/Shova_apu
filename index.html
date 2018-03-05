@@ -1,0 +1,82 @@
+<!DOCTYYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <title>Facebook Layout</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="header">
+           <div class="logo"> facebook </div>
+<!--sign up form-->  <div class="sform">
+            <div class="mail">
+            <form action="">
+                <label for="email">Email or Phone</label><br>
+                <input type="email" id="email" name="email"/>
+            </form>
+            </div>
+            
+            <div class="pswd">
+             <form>   
+                <label for="psw">Password</label><br>
+                <input type="password" id="psw" name="password"/><br>
+                 <p>Forgotten account?</p>
+            </form>
+            </div>
+            
+            <div class="btn">
+                <input type="submit" id="bttn" value="Log In" />
+            </div>
+<!--signup form end-->  </div>
+        </div>
+        <div class="content">
+            <div class="aside">
+                Facebook helps you connect and share with the people in your life.
+                <img  src="Images/fbcnt.png" />
+            </div>
+<!--Create Accnt Frm start--><div class="main_form">
+                <h1>Create a new account</h1>
+                <p>It's free and always will be</p>
+                <form class="crt_acnt">
+                    <input type="text" placeholder="First name" class="fst_n">
+                    <input type="text" placeholder="Last name" class="fst_n"> <br/>
+                    <input type="email" placeholder="Mobile Number or Email"> <br/>
+                    <input type="password" placeholder="New Password"> <br/>
+                    <input type="password" placeholder="Re enter new password">
+                    <h2>Birthday</h2>
+                    <select>
+                        <option value="0">Date</option>
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                    <select>
+                        <option value="0">Month</option>
+                        <option value="">January</option>
+                        <option value="">February</option>
+                        <option value=""  selected>March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">JUNE</option>
+                    </select>
+                    <select>
+                        <option value="0">Year</option>
+                        <option value="">1990</option>
+                        <option value="">1991</option>
+                        <option value="">1992</option>
+                        <option value="">1993</option>
+                        <option value="">1994</option>
+                        <option value="" selected>2018</option>
+                    </select><a href="#">Why do i need to provide my date of birth?</a> <br/>
+                    <input type="radio" class="gnd"> Female
+                    <input type="radio" class="gnd"> Male  <br/>
+                    <input type="submit" value="Create Accoount" class="sub_btn">
+                </form>
+<!--Account form end--> </div>
+        </div>
+        <div class="footer"><h4>Facebook@2018</h4></div>
+    </body>
+</html>
